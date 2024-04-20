@@ -33,4 +33,14 @@ function navAnimation() {
     });
   });
 }
-navAnimation();
+// navAnimation();
+
+var rightElem = document.querySelectorAll(".right-elem");
+rightElem.forEach(function (elem) {
+  elem.addEventListener("mouseenter", function () {
+    elem.childNodes[3].style.opacity = 1;
+  });
+  elem.addEventListener("mouseleave", function () {
+    elem.childNodes[3].style.opacity = 0;
+  });
+});
