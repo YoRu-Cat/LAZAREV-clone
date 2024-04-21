@@ -78,6 +78,11 @@ function page3VideoAnimation() {
     });
   });
 }
+function page7VideoAnimation() {
+  var section = document.querySelectorAll(".section");
+  section.forEach(function (elem) {});
+}
+
 // navAnimation();
 // page2Animation();
 page3VideoAnimation();
