@@ -20,7 +20,7 @@ nav {
   align-items: flex-start;
   height: 12vh;
   width: 100%;
-  padding: 2vw 10.4vw;
+  padding: 2vw 6vw;
   justify-content: space-between;
   background-color: #111;
   z-index: 10;
@@ -78,7 +78,7 @@ nav button svg {
 }
 
 #nav-bottom {
-  width: 79%;
+  width: 88%;
   height: 0vh;
   position: absolute;
   /* background-color: red; */
@@ -509,6 +509,8 @@ nav button svg {
   border-radius: 50px;
   border: none;
   text-transform: uppercase;
+  position: sticky;
+  top: 15%;
 }
 #page9-right {
   width: 70%;
@@ -526,18 +528,19 @@ nav button svg {
   /* background: red; */
   margin-top: 5vh;
   padding: 2vh 0vw;
-  border-top: 2px solid #fff;
+  /* border-top: 2px solid #fff; */
 }
 #page9-content h1 {
   font-size: 3.5vw;
   margin-bottom: 1vh;
+  margin-top: 2vh;
 }
-#page9-content #flex {
+#page9-content .flex {
   display: flex;
   margin-top: 5vh;
   margin-bottom: 6vh;
 }
-#page9-content #flex h4 {
+#page9-content .flex h4 {
   border-radius: 50px;
   border: 1px solid #5b5b5b;
   padding: 10px 20px;
@@ -609,4 +612,18 @@ nav button svg {
 }
 .product-design h1 {
   margin-top: 2vh;
+}
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.uiux,
+.product-design {
+  border-top: 1px solid #333;
+}
+#page10 {
+  height: 100vh;
+  width: 100%;
 }
