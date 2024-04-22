@@ -437,6 +437,7 @@ nav button svg {
   width: 100%;
   background: #fff;
   position: relative;
+  padding-bottom: 5vh;
 }
 .section {
   width: 100%;
@@ -444,7 +445,7 @@ nav button svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12vh 7vw 5vh 7vw;
+  padding: 10vh 6vw 2vh 6vw;
 }
 .sec-left {
   height: 100%;
@@ -483,4 +484,64 @@ nav button svg {
   left: 0;
   object-fit: cover;
   opacity: 0;
+  transition: opacity ease 0.3s;
+}
+#page8 {
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+}
+#page9 {
+  min-height: 100vh;
+  width: 100%;
+  background: #111;
+  position: relative;
+  padding: 12vh 6vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#page9 button {
+  background: #0ba34e;
+  padding: 1.4vw 4vw;
+  font-weight: 600;
+  font-size: 0.9vw;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+}
+#page9-right {
+  width: 70%;
+}
+#page9-right > p {
+  font-size: 2.4vw;
+}
+#page9-right > p span {
+  background: red;
+  width: 18vw;
+  display: inline-block;
+}
+#page9-content {
+  width: 100%;
+  background: red;
+  margin-top: 5vh;
+  padding: 2vh 0vw;
+  border-top: 2px solid #fff;
+}
+#page9-content > h1 {
+  font-size: 3.5vw;
+  margin-bottom: 1vh;
+}
+#page9-content #flex {
+  display: flex;
+  margin-top: 4vh;
+  margin-bottom: 3.5vh;
+}
+#page9-content #flex h4 {
+  border-radius: 50px;
+  border: 1px solid #5b5b5b;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 0.9vw;
+  text-transform: uppercase;
 }

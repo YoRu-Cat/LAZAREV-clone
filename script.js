@@ -79,10 +79,21 @@ function page3VideoAnimation() {
   });
 }
 function page7VideoAnimation() {
-  var section = document.querySelectorAll(".section");
-  section.forEach(function (elem) {});
+  var section = document.querySelectorAll(".sec-right");
+  section.forEach(function (elem) {
+    elem.addEventListener("mouseenter", function () {
+      console.log(elem.childNodes[3]);
+      elem.childNodes[3].style.opacity = 1;
+      elem.childNodes[3].play();
+    });
+    elem.addEventListener("mouseleave", function () {
+      console.log(elem.childNodes[3]);
+      elem.childNodes[3].style.opacity = 0;
+      elem.childNodes[3].load();
+    });
+  });
 }
-
+page7VideoAnimation();
 // navAnimation();
 // page2Animation();
-page3VideoAnimation();
+// page3VideoAnimation();
