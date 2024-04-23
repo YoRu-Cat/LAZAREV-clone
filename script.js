@@ -93,6 +93,42 @@ function page7VideoAnimation() {
     });
   });
 }
+
+function page9Animations() {
+  var data = document.querySelectorAll("details");
+  var details = document.querySelectorAll(".heading");
+  details.forEach(function (elem) {
+    // elem.childNodes[3].style.opacity = 1;
+    elem.addEventListener("click", function () {
+      data.forEach(function (dataEl) {
+        if (dataEl.open) {
+          elem.childNodes[3].style.display = "block";
+          elem.childNodes[5].style.display = "none";
+        } else {
+          elem.childNodes[3].style.display = "none";
+          elem.childNodes[5].style.display = "block";
+        }
+      });
+    });
+  });
+}
+
+// details.forEach(function (elem) {
+//   elem.addEventListener("click", function () {
+//     if (elem.childNodes[3].style.opacity === 1) {
+//       elem.childNodes[3].style.opacity = 0;
+//     }
+//   });
+// });
+// if (data.open) {
+//   console.log(elem);
+//   details.forEach(function (elem1) {
+//     elem1.childNodes[5].style.opacity = 0;
+//     elem1.childNodes[3].style.opacity = 1;
+//   });
+// }
+
+page9Animations();
 page7VideoAnimation();
 // navAnimation();
 // page2Animation();
