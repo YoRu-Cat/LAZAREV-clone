@@ -128,6 +128,60 @@ function page9Animations() {
 //   });
 // }
 
+// gsap.to("#btm6-part2 h4", {
+//   x: 150,
+//   duration: 1,
+//   stagger: {
+//     amount: -0.5,
+//   },
+//   scrollTrigger: {
+//     trigger: "#btm6-part2",
+//     scroller: "body",
+//     markers: true,
+//     start: "top 140%",
+//     end: "top -60%",
+//     scrub: true,
+//   },
+// });
+function page11Animations() {
+  gsap.from("#btm6-part2 h4", {
+    x: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#btm6-part2",
+      scroller: "body",
+      // markers: true,
+      scrub: true,
+      start: "top 90%",
+      end: "top -10%",
+    },
+  });
+  gsap.from("#btm6-part3 h4", {
+    x: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#btm6-part3",
+      scroller: "body",
+      // markers: true,
+      scrub: true,
+      start: "top 90%",
+      end: "top -10%",
+    },
+  });
+  gsap.from("#btm6-part4 h4", {
+    x: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#btm6-part4",
+      scroller: "body",
+      // markers: true,
+      scrub: true,
+      start: "top 90%",
+      end: "top -10%",
+    },
+  });
+}
+page11Animations();
 page9Animations();
 page7VideoAnimation();
 // navAnimation();

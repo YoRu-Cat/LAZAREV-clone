@@ -768,7 +768,7 @@ details > summary::-webkit-details-marker {
   /* background: red; */
 }
 .btm6-parts {
-  padding: 3vh 0vw;
+  padding: 3vh 0.2vw;
 }
 .btm6-parts h5 {
   color: #1d1d1d;
@@ -778,10 +778,10 @@ details > summary::-webkit-details-marker {
 }
 .btm6-parts h4 {
   background: #111;
-  width: 75%;
-  padding: 8px 8px;
+  width: 74%;
+  padding: 7px 7px;
   border-radius: 60px;
-  font-size: 1vw;
+  font-size: 0.9vw;
   font-weight: 400;
   letter-spacing: -0.8px;
   margin-bottom: 0.2vh;
@@ -796,4 +796,41 @@ details > summary::-webkit-details-marker {
   padding: 0.9vw;
   border-radius: 50%;
   margin-right: 1vw;
+}
+#btm6-part2 h4:nth-child(2) {
+  transform: translateX(0);
+}
+#btm6-part2 h4:nth-child(3) {
+  transform: translateX(20%);
+}
+#btm6-part2 h4:nth-child(4) {
+  transform: translateX(40%);
+}
+#btm6-part2 h4:nth-child(5) {
+  transform: translateX(60%);
+}
+#btm6-part2 h4:nth-child(6) {
+  transform: translateX(80%);
+}
+#btm6-part2 h4:nth-child(7) {
+  transform: translateX(100%);
+}
+#btm6-part3 h4:nth-child(2) {
+  transform: translateX(0);
+}
+#btm6-part3 h4:nth-child(3) {
+  transform: translateX(30%);
+}
+#btm6-part4 h4:nth-child(2) {
+  transform: translateX(0);
+}
+#btm6-part4 h4:nth-child(3) {
+  transform: translateX(25%);
+}
+#btm6-part4 h4:nth-child(4) {
+  transform: translateX(50%);
+}
+#page12 {
+  min-height: 100vh;
+  width: 100%;
 }
